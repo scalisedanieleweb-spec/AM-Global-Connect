@@ -81,7 +81,7 @@ function syncEvents(){
   eventStatus.textContent='Modalità offline: eventi salvati nel file. Per aggiornamenti automatici occorre pubblicare la versione online.';
   return;
  }
- fetch('./data/events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{
+ fetch('./events.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{
   if(!d.checked_at||!Array.isArray(d.events)||!d.events.length)throw Error('Nessuna sincronizzazione riuscita');
   const updated=[];
   for(const e of d.events){
