@@ -7,8 +7,10 @@ import requests
 from bs4 import BeautifulSoup
 
 URL='https://www.arthurmurray.com/events/'
-ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'data/events.json'
+
+ROOT = Path(__file__).resolve().parent
+OUT = ROOT / 'events.json'
+
 MONTHS={m.lower():i for i,m in enumerate(calendar.month_abbr) if m}
 MONTHS.update({m.lower():i for i,m in enumerate(calendar.month_name) if m})
 
