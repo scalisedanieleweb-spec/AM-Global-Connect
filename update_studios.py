@@ -26,13 +26,19 @@ def clean(value):
 
 def section_group(text):
     t = clean(text).lower()
-    if re.search(r'\b(usa locations|united states (studios|locations))\b', t):
-        return 'United States'
-    if re.search(r'\bcanada (studios|locations)\b', t):
-        return 'Canada'
-    if re.search(r'\b(international (studios|locations)|rest of the world)\b', t):
-        return 'International'
-    return None
+    # The official site currently labels its h3 sections exactly as follows.
+    labels = {
+        'usa locations': 'United States',
+        'united states studios': 'United States',
+        'united states locations': 'United States',
+        'canada locations': 'Canada',
+        'canada studios': 'Canada',
+        'international': 'International',
+        'international studios': 'International',
+        'international locations': 'International',
+        'rest of the world': 'International',
+    }
+    return labels.get(t)
 
 
 def external_link(tag):
@@ -47,8 +53,6 @@ def external_link(tag):
 
 
 def parse_card(tag, group):
-    # Each location card generally has a short title and a postal address.
-    # Avoid taking the entire section, navigation links or the map as a studio.
     title_tag = tag.find(re.compile(r'^h[2-6]$'))
     if not title_tag:
         title_tag = tag.find(['strong', 'b'])
@@ -62,7 +66,6 @@ def parse_card(tag, group):
     if name.lower() in ('new', 'coming soon', 'website', 'view website', 'directions', 'contact'):
         return None
 
-    # Prefer a structured address block; otherwise collect card text.
     address_tag = tag.find(class_=re.compile(r'address|location-address|studio-address', re.I))
     if not address_tag:
         address_tag = tag.find('address')
@@ -74,11 +77,9 @@ def parse_card(tag, group):
     address = re.sub(r'\b(?:New|Coming Soon)\b\s*$', '', address, flags=re.I).strip()
     if not 12 <= len(address) <= 260 or not re.search(r'\d', address):
         return None
-    # A studio card should not contain multiple other studio titles.
     if len(tag.find_all(re.compile(r'^h[2-6]$'))) > 1:
         return None
     link = external_link(tag)
-    # Stable ID does not depend on URL or street address, which may change.
     key = hashlib.sha256((group + '|' + name.casefold()).encode()).hexdigest()[:16]
     return {'id': key, 'name': name, 'address': address, 'region': group, 'url': link}
 
@@ -90,7 +91,6 @@ def extract(html):
     headings = [(h, section_group(h.get_text(' ', strip=True)))
                 for h in soup.find_all(re.compile(r'^h[1-6]$'))]
     sections = [(h, group) for h, group in headings if group]
-    # Deduplicate repeated headings for the same section (e.g. mobile menus).
     seen = set()
     sections = [(h, group) for h, group in sections if not (group in seen or seen.add(group))]
     if set(group for _, group in sections) != set(GROUPS):
@@ -99,8 +99,6 @@ def extract(html):
     records = {}
     for idx, (heading, group) in enumerate(sections):
         stop = sections[idx + 1][0] if idx + 1 < len(sections) else None
-        # Work with descendants following heading, stopping at next country's heading.
-        # Look for small containers with one studio heading and address.
         for element in heading.next_elements:
             if element is stop:
                 break
@@ -110,7 +108,6 @@ def extract(html):
                 continue
             if element.find(re.compile(r'^h[2-6]$')) is None and element.name != 'a':
                 continue
-            # Do not mistake a section wrapper containing many cards for a card.
             if len(element.find_all(re.compile(r'^h[2-6]$'))) > 1:
                 continue
             if len(clean(element.get_text(' ', strip=True))) > 450:
@@ -123,6 +120,7 @@ def extract(html):
 
     studios = sorted(records.values(), key=lambda r: (r['region'], r['name'].casefold()))
     counts = {g: sum(x['region'] == g for x in studios) for g in GROUPS}
+    print(f'Extracted studio counts: {counts}; total={len(studios)}', flush=True)
     if any(counts[g] < MINIMUMS[g] for g in GROUPS):
         raise RuntimeError(f'Incomplete official directory: {len(studios)} records {counts}; previous snapshot preserved')
     if OUT.exists():
