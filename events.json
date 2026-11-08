@@ -1,6 +1,96 @@
 {
-  "checked_at": null,
+  "checked_at": "2026-11-08T08:51:27.355379+00:00",
   "source": "https://www.arthurmurray.com/events/",
-  "events": [],
-  "note": "Not yet synchronized"
+  "events": [
+    {
+      "name": "Perfect 10 Dance-O-Rama",
+      "type": "Dance-O-Rama",
+      "start": "2026-11-19",
+      "end": "2026-11-22",
+      "city": "Sydney, NSW, Australia",
+      "venue": "The William Ingis Hotel, Sydney, Australia",
+      "url": "https://www.arthurmurray.com/am-events/perfect-10-dance-o-rama/"
+    },
+    {
+      "name": "Holiday Ball Dance-O-Rama",
+      "type": "Dance-O-Rama",
+      "start": "2026-12-03",
+      "end": "2026-12-06",
+      "city": "Baltimore, Maryland, US",
+      "venue": "Baltimore Marriott Waterfront Hotel",
+      "url": "https://www.arthurmurray.com/am-events/holiday-ball-dance-o-rama/"
+    },
+    {
+      "name": "Beach-O-Rama",
+      "type": "Dance-O-Rama",
+      "start": "2027-01-20",
+      "end": "2027-01-24",
+      "city": "Cancun, Q.R., Mexico",
+      "venue": "Hilton All Inclusive Resort",
+      "url": "https://www.arthurmurray.com/am-events/beach-o-rama/"
+    },
+    {
+      "name": "Flamingo Dance-O-Rama 2027",
+      "type": "Dance-O-Rama",
+      "start": "2027-02-25",
+      "end": "2027-02-27",
+      "city": "Charlotte Harbor, FL, US",
+      "venue": "Sunseeker Resort, Port Charlotte, FL",
+      "url": "https://www.arthurmurray.com/am-events/flamingo-dance-o-rama-2027/"
+    },
+    {
+      "name": "World Dance-O-Rama 2027",
+      "type": "World",
+      "start": "2027-03-17",
+      "end": "2027-03-21",
+      "city": "New York, New York, US",
+      "venue": "Marriott Marquis Times Square Hotel",
+      "url": "https://www.arthurmurray.com/am-events/world-dance-o-rama-2027/"
+    },
+    {
+      "name": "San Francisco Dance-O-Rama 2027",
+      "type": "Dance-O-Rama",
+      "start": "2027-04-22",
+      "end": "2027-04-25",
+      "city": "San Francisco, California, US",
+      "venue": "Hyatt Embarcadero Hotel",
+      "url": "https://www.arthurmurray.com/am-events/san-francisco-dance-o-rama-2027/"
+    },
+    {
+      "name": "Osprey Cup 2027",
+      "type": "Dance-O-Rama",
+      "start": "2027-04-24",
+      "end": "2027-04-24",
+      "city": "Sydney, NSW, Australia",
+      "venue": "UNF Arena | University of North Florida | Jacksonville, Florida",
+      "url": "https://www.arthurmurray.com/am-events/osprey-cup-2027/"
+    },
+    {
+      "name": "Diamondback Dance-O-Rama",
+      "type": "Dance-O-Rama",
+      "start": "2027-05-27",
+      "end": "2027-05-30",
+      "city": "Santa Ana Pueblo, NM, US",
+      "venue": "Hyatt Regency Tamaya Resort and Spa",
+      "url": "https://www.arthurmurray.com/am-events/diamondback-dance-o-rama/"
+    },
+    {
+      "name": "J’aDORe La Danse Dance-O-Rama",
+      "type": "Dance-O-Rama",
+      "start": "2027-06-03",
+      "end": "2027-06-06",
+      "city": "Montréal, Quebec, Canada",
+      "venue": "Hotel Bonaventure Montréal",
+      "url": "https://www.arthurmurray.com/am-events/jadore-la-danse/"
+    },
+    {
+      "name": "Unique Dance-O-Rama 2027",
+      "type": "Dance-O-Rama",
+      "start": "2027-07-15",
+      "end": "2027-07-18",
+      "city": "Irvine, CA, US",
+      "venue": "Hyatt Regency Hotel",
+      "url": "https://www.arthurmurray.com/am-events/unique-dance-o-rama-2027/"
+    }
+  ]
 }
