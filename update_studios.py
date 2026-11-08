@@ -1,78 +1,157 @@
 #!/usr/bin/env python3
-"""Conservative official studio snapshot. Never modifies private historical contacts."""
-import datetime
+"""Snapshot of official Arthur Murray locations. Never touches historical contacts.
+
+Fail closed on incomplete or suspicious extraction. Run via GitHub Actions.
+"""
+import datetime as dt
 import hashlib
 import json
 import re
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
+
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 URL = 'https://www.arthurmurray.com/locations/'
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'official_studios.json'
+GROUPS = ('United States', 'Canada', 'International')
+MINIMUMS = {'United States': 120, 'Canada': 5, 'International': 5}
 
 
-def clean(s):
-    return re.sub(r'\s+', ' ', s or '').strip()
+def clean(value):
+    return re.sub(r'\s+', ' ', str(value or '')).strip()
+
+
+def section_group(text):
+    t = clean(text).lower()
+    if re.search(r'\b(usa locations|united states (studios|locations))\b', t):
+        return 'United States'
+    if re.search(r'\bcanada (studios|locations)\b', t):
+        return 'Canada'
+    if re.search(r'\b(international (studios|locations)|rest of the world)\b', t):
+        return 'International'
+    return None
+
+
+def external_link(tag):
+    for a in tag.find_all('a', href=True):
+        href = urljoin(URL, a['href'])
+        parsed = urlparse(href)
+        if parsed.scheme == 'https' and parsed.netloc and 'arthurmurray.com' not in parsed.netloc.lower():
+            return href
+        if parsed.scheme == 'https' and '/locations/' not in parsed.path and parsed.netloc:
+            return href
+    return ''
+
+
+def parse_card(tag, group):
+    # Each location card generally has a short title and a postal address.
+    # Avoid taking the entire section, navigation links or the map as a studio.
+    title_tag = tag.find(re.compile(r'^h[2-6]$'))
+    if not title_tag:
+        title_tag = tag.find(['strong', 'b'])
+    name = clean(title_tag.get_text(' ', strip=True)) if title_tag else ''
+    if not name:
+        a = tag.find('a', href=True)
+        if a:
+            name = clean(a.get_text(' ', strip=True))
+    if not name or len(name) > 90 or section_group(name):
+        return None
+    if name.lower() in ('new', 'coming soon', 'website', 'view website', 'directions', 'contact'):
+        return None
+
+    # Prefer a structured address block; otherwise collect card text.
+    address_tag = tag.find(class_=re.compile(r'address|location-address|studio-address', re.I))
+    if not address_tag:
+        address_tag = tag.find('address')
+    address = clean(address_tag.get_text(' ', strip=True)) if address_tag else clean(tag.get_text(' ', strip=True))
+    if address.lower().startswith(name.lower()):
+        address = clean(address[len(name):])
+    else:
+        address = clean(re.sub(re.escape(name), '', address, count=1, flags=re.I))
+    address = re.sub(r'\b(?:New|Coming Soon)\b\s*$', '', address, flags=re.I).strip()
+    if not 12 <= len(address) <= 260 or not re.search(r'\d', address):
+        return None
+    # A studio card should not contain multiple other studio titles.
+    if len(tag.find_all(re.compile(r'^h[2-6]$'))) > 1:
+        return None
+    link = external_link(tag)
+    # Stable ID does not depend on URL or street address, which may change.
+    key = hashlib.sha256((group + '|' + name.casefold()).encode()).hexdigest()[:16]
+    return {'id': key, 'name': name, 'address': address, 'region': group, 'url': link}
 
 
 def extract(html):
     soup = BeautifulSoup(html, 'html.parser')
-    # Locate named country sections; only accept linked location records with addresses.
-    headings = soup.find_all(re.compile('^h[1-6]$'))
-    sections = []
-    for h in headings:
-        title = clean(h.get_text(' ', strip=True)).lower()
-        if any(x in title for x in ('usa locations', 'united states studios', 'canada locations', 'canada studios', 'international', 'rest of the world')):
-            country_group = ('United States' if 'usa' in title or 'united states' in title else
-                             'Canada' if 'canada' in title else 'International')
-            sections.append((h, country_group))
-    if len({g for _, g in sections}) < 3:
-        raise RuntimeError('Official page sections missing; previous snapshot preserved')
+    for el in soup(['script', 'style', 'noscript', 'svg']):
+        el.decompose()
+    headings = [(h, section_group(h.get_text(' ', strip=True)))
+                for h in soup.find_all(re.compile(r'^h[1-6]$'))]
+    sections = [(h, group) for h, group in headings if group]
+    # Deduplicate repeated headings for the same section (e.g. mobile menus).
+    seen = set()
+    sections = [(h, group) for h, group in sections if not (group in seen or seen.add(group))]
+    if set(group for _, group in sections) != set(GROUPS):
+        raise RuntimeError('Missing official location sections; previous snapshot preserved')
+
     records = {}
-    for index, (heading, group) in enumerate(sections):
-        stop = sections[index+1][0] if index+1 < len(sections) else None
-        for sibling in heading.next_elements:
-            if sibling is stop:
+    for idx, (heading, group) in enumerate(sections):
+        stop = sections[idx + 1][0] if idx + 1 < len(sections) else None
+        # Work with descendants following heading, stopping at next country's heading.
+        # Look for small containers with one studio heading and address.
+        for element in heading.next_elements:
+            if element is stop:
                 break
-            if getattr(sibling, 'name', None) != 'a' or not sibling.get('href'):
+            if not isinstance(element, Tag):
                 continue
-            href = urljoin(URL, sibling['href'])
-            if not href.startswith('https://') or 'arthurmurray.com' not in href:
+            if element.name not in ('div', 'li', 'article', 'a'):
                 continue
-            name = clean(sibling.get_text(' ', strip=True))
-            if not name or len(name) > 100 or name.lower() in ('learn more','contact','directions','website','view studio'):
+            if element.find(re.compile(r'^h[2-6]$')) is None and element.name != 'a':
                 continue
-            parent = sibling.parent
-            address = clean(parent.get_text(' ', strip=True)) if parent else ''
-            if len(address) > 300 or len(address) < len(name) + 12 or not re.search(r'\d', address):
+            # Do not mistake a section wrapper containing many cards for a card.
+            if len(element.find_all(re.compile(r'^h[2-6]$'))) > 1:
                 continue
-            address = clean(address.replace(name, '', 1))
-            if not address or len(address) > 220:
+            if len(clean(element.get_text(' ', strip=True))) > 450:
                 continue
-            key = hashlib.sha256((group+'|'+name.lower()+'|'+href).encode()).hexdigest()[:16]
-            records[key] = {'id':key,'name':name,'address':address,'region':group,'url':href}
-    data = sorted(records.values(), key=lambda x:(x['region'],x['name'].lower()))
-    counts = {g:sum(x['region']==g for x in data) for g in ('United States','Canada','International')}
-    if len(data) < 150 or min(counts.values()) < 5:
-        raise RuntimeError(f'Only {len(data)} studio records extracted ({counts}); preserving previous snapshot')
-    return data
+            result = parse_card(element, group)
+            if result:
+                old = records.get(result['id'])
+                if not old or len(result['address']) < len(old['address']):
+                    records[result['id']] = result
+
+    studios = sorted(records.values(), key=lambda r: (r['region'], r['name'].casefold()))
+    counts = {g: sum(x['region'] == g for x in studios) for g in GROUPS}
+    if any(counts[g] < MINIMUMS[g] for g in GROUPS):
+        raise RuntimeError(f'Incomplete official directory: {len(studios)} records {counts}; previous snapshot preserved')
+    if OUT.exists():
+        try:
+            previous = json.loads(OUT.read_text(encoding='utf-8'))
+            previous_count = len(previous.get('studios', []))
+            if previous_count and len(studios) < previous_count * 0.75:
+                raise RuntimeError(f'Suspicious drop {previous_count} -> {len(studios)}; previous snapshot preserved')
+        except (ValueError, OSError):
+            raise RuntimeError('Existing snapshot unreadable; refusing overwrite')
+    return studios, counts
 
 
 def main():
-    session = requests.Session()
-    session.headers['User-Agent'] = 'AMGlobalConnectOfficialDirectory/1.0'
-    response = session.get(URL, timeout=40)
+    response = requests.get(URL, timeout=45, headers={'User-Agent': 'Mozilla/5.0 (compatible; AMGlobalConnectDirectory/2.0)'})
     response.raise_for_status()
-    studios = extract(response.text)
-    payload = {'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
-               'source':URL,'count':len(studios),'studios':studios}
-    tmp = OUT.with_suffix('.tmp')
-    tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    tmp.replace(OUT)
-    print(f'Official directory updated: {len(studios)} studios')
+    studios, counts = extract(response.text)
+    payload = {
+        'checked_at': dt.datetime.now(dt.timezone.utc).isoformat(),
+        'source': URL,
+        'count': len(studios),
+        'counts': counts,
+        'studios': studios,
+    }
+    temp = OUT.with_suffix('.tmp')
+    temp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    temp.replace(OUT)
+    print(f'Official directory updated: {len(studios)} studios; {counts}')
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     main()
