@@ -1,0 +1,2329 @@
+{
+  "checked_at": "2026-11-08T10:19:18.814792+00:00",
+  "source": "https://www.arthurmurray.com/locations/",
+  "count": 331,
+  "counts": {
+    "United States": 261,
+    "Canada": 21,
+    "International": 49
+  },
+  "studios": [
+    {
+      "id": "080f49771cc0dd40",
+      "name": "Ajax",
+      "address": "299 Kingston Road E 3-4, Ajax Ontario L1Z 0K5 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/ajax/"
+    },
+    {
+      "id": "5b92b4646b4fabd2",
+      "name": "Brossard",
+      "address": "390 Avenue De L'equinoxe, Brossard Quebec J4Z 0P4 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/brossard/"
+    },
+    {
+      "id": "50e561a17d8bfa1d",
+      "name": "Burnaby",
+      "address": "6929 Royal Oak Ave, 2nd Floor Burnaby BC V5J 4J3 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/burnaby/"
+    },
+    {
+      "id": "1f36d1c4c908776c",
+      "name": "Calgary",
+      "address": "231b Forge Road S.e., Calgary Alberta T2H 0S9 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/calgary/"
+    },
+    {
+      "id": "e9aba40ead1a593f",
+      "name": "Coquitlam",
+      "address": "1090 Lougheed Highway, Unit 212 Coquitlam British Columbia V3K 6G9 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/coquitlam/"
+    },
+    {
+      "id": "d73d02f29aca7787",
+      "name": "Dollard/Montreal",
+      "address": "3771 Des Sources Boulevard, Dollard Des Ormeaux Quebec H9B 2K4 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/dollard-montreal/"
+    },
+    {
+      "id": "80e3ab509946ab2b",
+      "name": "Edmonton",
+      "address": "10707 178 Street Nw, Edmonton Alberta T5S 1J6 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/edmonton/"
+    },
+    {
+      "id": "f414146d8fd007b2",
+      "name": "Halifax",
+      "address": "59 Mcquade Lake Crescent, HALIFAX Nova Scotia B3S 1C4 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/halifax/"
+    },
+    {
+      "id": "44c30d947da0fccf",
+      "name": "Hamilton",
+      "address": "800 Queenston Road, Suite 209 HAMILTON Ontario L8G 1A7 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/hamilton/"
+    },
+    {
+      "id": "a2bef83e8c8cfcfd",
+      "name": "Laval",
+      "address": "1882 St. Martin Boulevard, Suite 201 LAVAL Quebec H7S 1M9 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/laval/"
+    },
+    {
+      "id": "fecfc9b1a37d19f0",
+      "name": "Montreal",
+      "address": "4847 Jean-Talon West, MONTREAL Quebec H4P 1W7 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/montreal/"
+    },
+    {
+      "id": "4bdff6b6539c95cd",
+      "name": "Oakville",
+      "address": "9 Lakeshore Road West, OAKVILLE Ontario L6K 1C6 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/oakville/"
+    },
+    {
+      "id": "9fa9ab20470127ed",
+      "name": "Ottawa",
+      "address": "1175 Wellington Street West, Unit 5 OTTAWA Ontario K1Y 2Y9 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/ottawa/"
+    },
+    {
+      "id": "dc34484aab88454c",
+      "name": "Sherwood Park",
+      "address": "Bay #176 Chippewa Road, Sherwood Park Alberta Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/sherwood-park/"
+    },
+    {
+      "id": "41bd6726c0b3a68e",
+      "name": "Stouffville",
+      "address": "117 Ringwood Drive, 6 Witchurch-Stouffville Ontario L4A 8C1 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/stouffville/"
+    },
+    {
+      "id": "fb998eacbc533a36",
+      "name": "Vancouver BC",
+      "address": "505 Hamilton Street, Suite 200 VANCOUVER British Columbia V6B 2R1 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/vancouver-bc/"
+    },
+    {
+      "id": "aab93e0cc019629c",
+      "name": "Victoria BC",
+      "address": "3567 Ravine Way, Victoria British Columbia V8X 4Z1 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/victoria-bc/"
+    },
+    {
+      "id": "cf4ad9be921d5595",
+      "name": "Waterloo",
+      "address": "104 King Street South, 2nd Floor Waterloo Ontario N2J 1P5 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/waterloo/"
+    },
+    {
+      "id": "68191606cf899c71",
+      "name": "White Rock",
+      "address": "1767 152 Street, Unit 6 SURREY British Columbia V4A 4N3 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/white-rock/"
+    },
+    {
+      "id": "39c8b36b19fcc45c",
+      "name": "Winnipeg",
+      "address": "1744 St. James Street, Winnipeg Manitoba R3H 0L3 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/winnipeg/"
+    },
+    {
+      "id": "f2b4a53d3f644458",
+      "name": "Woodbridge",
+      "address": "180 Winges Road, Suite 21 WOODBRIDGE Ontario L4L 6C7 Canada",
+      "region": "Canada",
+      "url": "https://www.arthurmurray.com/studios/woodbridge/"
+    },
+    {
+      "id": "d253f4c5b072d539",
+      "name": "Abu Dhabi",
+      "address": "15-02 West Airport Road, Sj Tower, Suite 302 Abu Dhabi Abu Dhabi United Arab Emirates",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/abu-dhabi/"
+    },
+    {
+      "id": "9231da9c89113142",
+      "name": "Adelaide",
+      "address": "26 A. Grote Street, Adelaide South Australia 5000 Australia",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/adelaide/"
+    },
+    {
+      "id": "7aa412f127e97eb2",
+      "name": "Amman",
+      "address": "Abdul Raheem El-Haj Mohammed Street, El-Kheir Bldg No: 24 Sweifieh Amman 11185 Jordan",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/amman/"
+    },
+    {
+      "id": "68ccd646b710113f",
+      "name": "Barcelona",
+      "address": "Carrer De Berga 34 Gracia, Barcelona Barcelona 08012 Spain",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/barcelona/"
+    },
+    {
+      "id": "a7ecb773f975b98b",
+      "name": "Bergamo",
+      "address": "Via Torquato Tasso, 101, Bergamo BG 24121 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/bergamo/"
+    },
+    {
+      "id": "fb9fa873e03ea14b",
+      "name": "Bondi Junction",
+      "address": "93-99 Bronte Road, Lower Ground Level Bondi Junction New South Wales 2022 Australia",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/bondi-junction/"
+    },
+    {
+      "id": "5338be5c4a5025d5",
+      "name": "Brescia",
+      "address": "Borgo Pietro Wuhrer, 13/15, Viale Della Bornata Brescia Brescia 25123 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/brescia/"
+    },
+    {
+      "id": "4d7e73a33447d370",
+      "name": "Bucharest",
+      "address": "Etaj 2, Strada Nicolae G., Caranfil 87 Bucharest București 040231 Romania",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/bucharest/"
+    },
+    {
+      "id": "05a4d9f2a5235c98",
+      "name": "Chacarilla",
+      "address": "Centro Comercial Caminos Del Inca. Jirón Monterrey 170, Suite 306 Santiago de Surco 15038 Peru",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/chacarilla/"
+    },
+    {
+      "id": "2bccb35b58e7d59b",
+      "name": "Chatswood",
+      "address": "Level 1, 19 Spring Street, Chatswood New South Wales 2067 Australia",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/chatswood/"
+    },
+    {
+      "id": "5533499db0428db2",
+      "name": "Como",
+      "address": "Via Milano 34 , Como 22100 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/como/"
+    },
+    {
+      "id": "7ecd44d0c1907447",
+      "name": "Crows Nest",
+      "address": "10-12 Clarke Street, Suite 104 Crows Nest New South Wales 2065 Australia",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/crows-nest/"
+    },
+    {
+      "id": "cc870826ab369901",
+      "name": "Dubai (DT)",
+      "address": "1 West Block, Souk Al Bahar, Downtown Burj Khalifa Dubai Dubai United Arab Emirates",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/dubai-dt/"
+    },
+    {
+      "id": "23e5abb2c7962912",
+      "name": "Firenze South",
+      "address": "Via Finlandia 20, Florence Firenze 50126 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/firenze-south/"
+    },
+    {
+      "id": "cf631e3d05ff2643",
+      "name": "Florence-Italy",
+      "address": "Piazza Degli Strozzi, 5, Florence Firenze 50123 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/florence-italy/"
+    },
+    {
+      "id": "b0643eb650274494",
+      "name": "Haifa",
+      "address": "Margalit St 4, Haifa 3446701 Israel",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/haifa/"
+    },
+    {
+      "id": "be37e4f7620aa2d8",
+      "name": "Hornsby",
+      "address": "2/97 Hunter Street, Hornsby New South Wales 2077 Australia",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/hornsby/"
+    },
+    {
+      "id": "843d7ae7088204cf",
+      "name": "Kiev",
+      "address": "Liuteranska St., 10a, Office 49 KIEV Kyïvs'ka Oblast' 02000 Ukraine",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/kiev/"
+    },
+    {
+      "id": "12e6461c45c9441c",
+      "name": "Kobe",
+      "address": "Culmeni Bldg., 3f, 1-5-7 Higashikawasakiho, Chuuo-Ku Kobe Hyogo 650-0044 Japan",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/kobe/"
+    },
+    {
+      "id": "1580b3fb7b25cf20",
+      "name": "Lecce",
+      "address": "Via Giuseppe Zanardelli, 8, LECCE Lecce 73100 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/lecce/"
+    },
+    {
+      "id": "042be0201fb1af1e",
+      "name": "Leichhardt",
+      "address": "276 Norton Street, Leichhardt New South Wales 2040 Australia",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/leichhardt/"
+    },
+    {
+      "id": "b4957cdee9ae9af7",
+      "name": "Lima",
+      "address": "Paseo De La Republica 3920, MIRAFLORES Lima 15046 Peru",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/lima/"
+    },
+    {
+      "id": "76397058dccbca2e",
+      "name": "London (B/S)",
+      "address": "77 Baker Street, LONDON London, City of W1U 6RF England",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/london-b-s/"
+    },
+    {
+      "id": "41725c649d36b26e",
+      "name": "Mantova",
+      "address": "Via Giovanni Chiassi 20/e, Mantova 46100 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/mantova/"
+    },
+    {
+      "id": "9d496be9ac1c833b",
+      "name": "Matera",
+      "address": "Via Lucana 174, MATERA Matera 75100 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/matera/"
+    },
+    {
+      "id": "76d1e0dd74a7f3b7",
+      "name": "Milano",
+      "address": "Via Gabrio Serbelloni 7, Milano Milano 20122 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/milano/"
+    },
+    {
+      "id": "796b7386d75d6385",
+      "name": "Modena",
+      "address": "Via Giorgio Perlasca 25, MODENA Modena 41126 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/modena/"
+    },
+    {
+      "id": "969e697622631706",
+      "name": "Monza",
+      "address": "Via Col Di Lana 11, MONZA Lombardia 20900 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/monza/"
+    },
+    {
+      "id": "ba3d7d2034c02651",
+      "name": "Osaka",
+      "address": "3-5-28 Minamisenba, 2f Chuo-Ku Osaka Osaka 542-0081 Japan",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/osaka/"
+    },
+    {
+      "id": "0dbfc503058b3ffe",
+      "name": "Padova",
+      "address": "Via Milatzo 10, Padova PD 35100 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/padova/"
+    },
+    {
+      "id": "bc58685162d2dccd",
+      "name": "Parma",
+      "address": "Via Giuseppe Mazzini, 12/g, Parma PR 43121 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/parma/"
+    },
+    {
+      "id": "bdf0a19e026f7614",
+      "name": "Perth",
+      "address": "5/319 Stirling Highway, Claremont Western Australia 6010 Australia",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/perth/"
+    },
+    {
+      "id": "608fec39ffad783b",
+      "name": "Porto Alegre",
+      "address": "R. Dr. Barcelos, 1125 Tristeza, Porto Alegre Rio Grande do Sul 91910-251 Brazil",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/porto-alegre/"
+    },
+    {
+      "id": "4bc3f5cf028df291",
+      "name": "Ra’anana",
+      "address": "128 Ahuza Street, Ra'anana Central 43450 Israel",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/raanana/"
+    },
+    {
+      "id": "5ffbf9a0dcdb6f36",
+      "name": "Reggio Emilia",
+      "address": "Via Monti Urali 9, Reggio Emilia 42122 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/reggio-emilia/"
+    },
+    {
+      "id": "318b51de9c35b0fb",
+      "name": "Roma-Prati",
+      "address": "Viale delle Milizie 40 , Roma 00192 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/roma-prati/"
+    },
+    {
+      "id": "272e146f53f980db",
+      "name": "Rome",
+      "address": "Via Antonio Bertoloni 1b, ROME Roma 00197 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/rome/"
+    },
+    {
+      "id": "1545a9ae41b846ca",
+      "name": "San Miguel de Allende",
+      "address": "Carretera A Queretaro Km 3.5, San Miguel De Allende Guanajuato 37897 Mexico",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/san-miguel-de-allende/"
+    },
+    {
+      "id": "b9a1fa435eff63cc",
+      "name": "Sydney",
+      "address": "Level 1/317 George Street, Entrance At Wynyard Lane Sydney New South Wales 2000 Australia",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/sydney/"
+    },
+    {
+      "id": "8e56fa29a2d0f90a",
+      "name": "Taipei",
+      "address": "9F No. 293, Section 4, Zhongxiao E. Road, Da'an Dist. Taiwan Taipei 10696 Taiwan",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/taipei/"
+    },
+    {
+      "id": "32003dcdef737257",
+      "name": "Tokyo",
+      "address": "1F, Tsukimura Mansion, 6-32-13 Nishikamata, Ota-Ku Tokyo Tokyo 144-0051 Japan",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/tokyo/"
+    },
+    {
+      "id": "08c2872d9753754d",
+      "name": "Torino",
+      "address": "Via San Francesco Da Paola 14 Bis, Torino Torino 10123 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/torino/"
+    },
+    {
+      "id": "db4de52aa45ea31b",
+      "name": "Verona",
+      "address": "Viale Del Lavoro 30/A, VERONA Verona 37135 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/verona/"
+    },
+    {
+      "id": "023faf9c1f61e7f2",
+      "name": "Vicenza",
+      "address": "Via Giovanni Battista Quadri 87, VICENZA Vicenza 36100 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/vicenza/"
+    },
+    {
+      "id": "a4c88964709a84d3",
+      "name": "Villafranca di Verona",
+      "address": "Via Sommacampagna 46, Villafranca Di Verona Verona 37069 Italy",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/villafranca-di-verona/"
+    },
+    {
+      "id": "0d53b70c8285b195",
+      "name": "Warsaw",
+      "address": "Emilii Plater Str. 10, WARSAW Mazowieckie 00-669 Poland",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/warsaw/"
+    },
+    {
+      "id": "f5006d56a028dfa8",
+      "name": "Wroclaw",
+      "address": "Henryka Poboznego Str. 15, WROCLAW Dolnośląskie 50-241 Poland",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/wroclaw/"
+    },
+    {
+      "id": "b00bf2566b3511dc",
+      "name": "Yokohama",
+      "address": "Marunaka Bldg. 4F, 1-1-36 Sasanodai, Asahi Ward Yokohama Kanagawa 241-0816 Japan",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/yokohama/"
+    },
+    {
+      "id": "e48dd670544dfc31",
+      "name": "Zurich",
+      "address": "Hofwiesenstrasse 135, ZURICH Zürich 8057 Switzerland",
+      "region": "International",
+      "url": "https://www.arthurmurray.com/studios/zurich/"
+    },
+    {
+      "id": "ef3dc364e2616186",
+      "name": "Albuquerque",
+      "address": "2801 Eubank Blvd. Ne, Unit K Albuquerque NM 87112 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/albuquerque/"
+    },
+    {
+      "id": "1266c483a89faacf",
+      "name": "Alexandria",
+      "address": "3223 Duke Street, Suite B1 Alexandria VA 22312 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/alexandria/"
+    },
+    {
+      "id": "2b8aef98a3d7eb73",
+      "name": "Ann Arbor",
+      "address": "6075 Jackson Road, Ann Arbor MI 48103 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/ann-arbor/"
+    },
+    {
+      "id": "e4b907f705a7bc84",
+      "name": "Arnold",
+      "address": "1517 Ritchie Highway, Unit 101 Arnold MD 21012 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/arnold/"
+    },
+    {
+      "id": "279bd9762b3bb8c4",
+      "name": "Arrowhead",
+      "address": "16671 North 84th Avenue, Suite 170 PEORIA AZ 85382 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/arrowhead/"
+    },
+    {
+      "id": "fa585fc05aa18e61",
+      "name": "Ashburn",
+      "address": "21140 Ashburn Crossing Drive, Suite 105 Ashburn VA 20147-5025 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/ashburn/"
+    },
+    {
+      "id": "07ffb52076f8e6cd",
+      "name": "Auburn",
+      "address": "195 Harrison Ave, Suite 220 Auburn CA 95603 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/auburn/"
+    },
+    {
+      "id": "dc80a371a3055210",
+      "name": "Austin",
+      "address": "13945 Highway 183 North, Suite C1 Austin TX 78717 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/austin/"
+    },
+    {
+      "id": "50e2714a239bf951",
+      "name": "Avon",
+      "address": "8100 East Us Highway 36, Suite P Avon IN 46123 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/avon/"
+    },
+    {
+      "id": "b452c0b230321327",
+      "name": "Baltimore",
+      "address": "6800 York Road, #C Baltimore MD 21212-1550 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/baltimore/"
+    },
+    {
+      "id": "e3098bf9ba431c62",
+      "name": "Bayside",
+      "address": "222-15 Northern Boulevard, Bayside NY 11361 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/bayside/"
+    },
+    {
+      "id": "9fb7d7e9e50cafa7",
+      "name": "Beaverton",
+      "address": "10030 Sw Beaverton Hillsdale Hwy, Beaverton OR 97005 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/beaverton/"
+    },
+    {
+      "id": "8fb776ac1248527f",
+      "name": "Bellevue",
+      "address": "13122 Ne 20th Street, Suite 200 Bellevue WA 98005 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/bellevue/"
+    },
+    {
+      "id": "92d6962eba74dd9b",
+      "name": "Beverly Hills",
+      "address": "262 North Beverly Drive, Beverly Hills CA 90210-5303 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/beverly-hills/"
+    },
+    {
+      "id": "c52fc32c9a8d5add",
+      "name": "Bloomfield",
+      "address": "30 Wintonbury Mall, Bloomfield CT 06002-2412 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/bloomfield/"
+    },
+    {
+      "id": "cb8104102f15ca24",
+      "name": "Bloomington",
+      "address": "1711 North College Avenue, Bloomington IN 47404 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/bloomington/"
+    },
+    {
+      "id": "da7c379cc66802f4",
+      "name": "Boca Raton",
+      "address": "326 East Palmetto Park Road, Boca Raton FL 33432 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/boca-raton/"
+    },
+    {
+      "id": "865cf69c144ca03c",
+      "name": "Boise",
+      "address": "12505 West Chinden Boulevard, Suite P Boise ID 83713 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/boise/"
+    },
+    {
+      "id": "76ac39e061a0eb2e",
+      "name": "Boston",
+      "address": "20 Park Plaza, #330, The Statler Building Boston MA 02116-4303 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/boston/"
+    },
+    {
+      "id": "46b2a2818c2f4e28",
+      "name": "Boulder",
+      "address": "5290 Arapahoe Avenue, Unit F Boulder CO 80303 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/boulder/"
+    },
+    {
+      "id": "0593cc8340f8e3e3",
+      "name": "Bradenton",
+      "address": "10520 Portal Crossing, Suite 105-106 Bradenton FL 34211 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/bradenton/"
+    },
+    {
+      "id": "770dc56371b0310a",
+      "name": "Brookfield",
+      "address": "19035 W Capitol Dr, Suite 201 Brookfield WI 53217 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/brookfield/"
+    },
+    {
+      "id": "9f74c6b1f60978aa",
+      "name": "Burlington",
+      "address": "209 Middlesex Turnpike, Suite A Burlington MA 01803-2922 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/burlington/"
+    },
+    {
+      "id": "afaa7ed72ce4c2a7",
+      "name": "Cambridge",
+      "address": "151 Alewife Brook Parkway, Cambridge MA 02140 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/cambridge/"
+    },
+    {
+      "id": "18be59461635354a",
+      "name": "Carlsbad",
+      "address": "2588 El Camino Real #j, Carlsbad CA 92008 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/carlsbad/"
+    },
+    {
+      "id": "4db40531f0dd5d06",
+      "name": "Carmel",
+      "address": "4000 W. 106th Street, Suite 120 Carmel IN 46032 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/carmel/"
+    },
+    {
+      "id": "c9256c3ff3135dac",
+      "name": "Carmichael",
+      "address": "4141 Manzanita Avenue, Suite 200 Carmichael CA 95608 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/carmichael/"
+    },
+    {
+      "id": "1cb467ae206a5f87",
+      "name": "Cary",
+      "address": "1040 Darrington Drive, Suite 106 Cary NC 27513 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/cary/"
+    },
+    {
+      "id": "f242ce582ee92d73",
+      "name": "Castle Rock",
+      "address": "1057 Park Street, Suite C Castle Rock CO 80109 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/castle-rock/"
+    },
+    {
+      "id": "cd9dbc6dc49f28b9",
+      "name": "Charleston",
+      "address": "1300 Savannah Highway, Suite 8 Charleston SC 29407 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/charleston/"
+    },
+    {
+      "id": "efda8a426b35adef",
+      "name": "Charlotte",
+      "address": "8700 Pineville-Matthews Rd, Suite 800 Charlotte NC 28226 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/charlotte/"
+    },
+    {
+      "id": "3d3640d1b4fcd9f3",
+      "name": "Chatham",
+      "address": "6 South Passaic Avenue, Chatham NJ 07928-2357 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/chatham/"
+    },
+    {
+      "id": "fe3095ab449a64b6",
+      "name": "Chevy Chase",
+      "address": "5481-H Wisconsin Avenue, Chevy Chase MD 20815 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/chevy-chase/"
+    },
+    {
+      "id": "88d75dff590834ee",
+      "name": "Chicago",
+      "address": "116 West Illinois Street, Chicago IL 60654 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/chicago/"
+    },
+    {
+      "id": "449fde002e6e9bb9",
+      "name": "Clackamas",
+      "address": "16112 Se 82nd Drive, Clackamas OR 97015 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/clackamas/"
+    },
+    {
+      "id": "0e940de731408bc8",
+      "name": "Clearwater",
+      "address": "25032 Us Highway 19 N, Clearwater FL 33763 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/clearwater/"
+    },
+    {
+      "id": "f2ecaa1b5d54aa9d",
+      "name": "Clermont",
+      "address": "2400 S. Us Highway 27, Unit 4308 Clermont FL 34711 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/clermont/"
+    },
+    {
+      "id": "36a1ae6184e7d8b0",
+      "name": "Columbia",
+      "address": "9190 Red Branch Road, Suite 145 Columbia MD 21045-2004 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/columbia/"
+    },
+    {
+      "id": "4eb00ab9b37132cf",
+      "name": "Columbus",
+      "address": "5371 North High Street, Columbus OH 43214-1116 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/columbus/"
+    },
+    {
+      "id": "c3a435cca0c9fa55",
+      "name": "Conroe",
+      "address": "3846 West Davis Street, Conroe TX 77304 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/conroe"
+    },
+    {
+      "id": "4f3e4e2f5ffd1570",
+      "name": "Coral Gables",
+      "address": "2916 Ponce De Leon Blvd., Coral Gables FL 33134-6811 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/coral-gables/"
+    },
+    {
+      "id": "c2b708d788c84058",
+      "name": "Cornelius",
+      "address": "19907 North Cove Rd., Cornelius NC 28031 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/cornelius/"
+    },
+    {
+      "id": "4252074542dbebe9",
+      "name": "Costa Mesa",
+      "address": "1640 Adams Avenue, Costa Mesa CA 92626-4954 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/costa-mesa/"
+    },
+    {
+      "id": "354d407afb65d8ce",
+      "name": "Cranford",
+      "address": "200 South Avenue East, Suite 200 Cranford NJ 07016 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/cranford/"
+    },
+    {
+      "id": "daf9a8192f178bb9",
+      "name": "Culver City",
+      "address": "10758 West Washington Boulevard, Culver City CA 90232 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/culver-city/"
+    },
+    {
+      "id": "1e097375211fecdd",
+      "name": "Dallas",
+      "address": "6526 Lbj Freeway, Dallas TX 75240-6505 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/dallas/"
+    },
+    {
+      "id": "c263dc8cf04ed231",
+      "name": "Danbury",
+      "address": "345 Main Street, Danbury CT 06810-5818 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/danbury/"
+    },
+    {
+      "id": "4fe6f03eb3fc4b05",
+      "name": "Danvers",
+      "address": "60 Maple Street, 2nd Floor Danvers MA 01923-2843 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/danvers/"
+    },
+    {
+      "id": "801402f7349e7e66",
+      "name": "Davis",
+      "address": "1720 Research Park Drive, Suite 2101 Davis CA 95618 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/davis"
+    },
+    {
+      "id": "f1f9c5d3b9ee7617",
+      "name": "Dayton",
+      "address": "17 Prestige Plaza Drive, Dayton OH 45342-3767 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/dayton/"
+    },
+    {
+      "id": "c43d953ed4901fd2",
+      "name": "Dedham",
+      "address": "95 Eastern Avenue, Suite 4 Dedham MA 02026 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/dedham/"
+    },
+    {
+      "id": "e7cd5317a535d386",
+      "name": "Denver",
+      "address": "7400 E. Hampden Avenue, Unit G Denver CO 80231-4888 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/denver/"
+    },
+    {
+      "id": "3edf316eb8058334",
+      "name": "Denville",
+      "address": "26 Bloomfield Avenue, Suite 2 Denville NJ 07834-2742 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/denville/"
+    },
+    {
+      "id": "29dcf138df497f1c",
+      "name": "Diamond Bar",
+      "address": "303 South Diamond Bar Blvd., Suite H Diamond Bar CA 91765 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/diamond-bar/"
+    },
+    {
+      "id": "3a3f909cd3d070fc",
+      "name": "Durham",
+      "address": "410 West Geer Street, Durham NC 27701 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/durham/"
+    },
+    {
+      "id": "5e968ce9f8ba0092",
+      "name": "Eastchester",
+      "address": "352 White Plains Road, Eastchester NY 10709 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/eastchester/"
+    },
+    {
+      "id": "1863a28a29a61aa3",
+      "name": "Eau Claire",
+      "address": "4288 London Road, Eau Claire WI 54701-3606 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/eau-claire/"
+    },
+    {
+      "id": "cf146533ca71d589",
+      "name": "Edgewater",
+      "address": "3200 Solomons Island Road, Edgewater MD 21037 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/edgewater/"
+    },
+    {
+      "id": "6153fd97d615604e",
+      "name": "Elk Grove",
+      "address": "2471 Elk Grove Blvd., Suite 100, Elk Grove CA 95758 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/elk-grove/"
+    },
+    {
+      "id": "254573181e26c6fa",
+      "name": "Escondido",
+      "address": "125 East Grand Avenue, Escondido CA 92025 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/escondido/"
+    },
+    {
+      "id": "0b8c203b2da94f26",
+      "name": "Estero",
+      "address": "19810 Village Center Drive, Suite 110a Fort Myers FL 33913 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/estero/"
+    },
+    {
+      "id": "f4df7cf6d895fd30",
+      "name": "Eugene",
+      "address": "566 Olive St, Eugene OR 97401 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/eugene/"
+    },
+    {
+      "id": "93aff4efa81d17cb",
+      "name": "Everett",
+      "address": "5307 Evergreen Way, Everett Plaza Shopping Center Everett WA 98203-3631 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/everett/"
+    },
+    {
+      "id": "678a8c2156a19f43",
+      "name": "Federal Way",
+      "address": "32724 Pacific Highway South, Federal Way WA 98003 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/federal-way/"
+    },
+    {
+      "id": "f3a93d35c7a8f419",
+      "name": "Fishers",
+      "address": "11650 Olio Road, Suite 800 Fishers IN 46037 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/fishers"
+    },
+    {
+      "id": "83d5252cc04b6da2",
+      "name": "Folsom",
+      "address": "220 Blue Ravine Road, #100, Folsom CA 95630 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/folsom/"
+    },
+    {
+      "id": "298101f45b0dfe41",
+      "name": "Fort Wayne",
+      "address": "8818 Coldwater Road, Fort Wayne IN 46825 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/fort-wayne/"
+    },
+    {
+      "id": "7cdb010bc639f7b6",
+      "name": "Fort Worth",
+      "address": "4949 Bryant Irvin Road North, Ft. Worth TX 76107-7623 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/fort-worth/"
+    },
+    {
+      "id": "ea62589455cc49fb",
+      "name": "Fremont",
+      "address": "40951 Fremont Boulevard, Fremont CA 94538 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/fremont/"
+    },
+    {
+      "id": "ae5d495b8ec30c86",
+      "name": "Gainesville FL",
+      "address": "3842 West Newberry Road, Suite 1-G Gainesville FL 32607 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/gainesville-fl/"
+    },
+    {
+      "id": "d6d786b6713f9bf9",
+      "name": "Gainesville VA",
+      "address": "7956 Crescent Park Drive, Gainesville VA 20155 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/gainesville-va/"
+    },
+    {
+      "id": "39a2aea268847e4d",
+      "name": "Gaithersburg",
+      "address": "604 South Frederick Avenue, Suite 100 Gaithersburg MD 20877-1275 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/gaithersburg/"
+    },
+    {
+      "id": "dbf39336b13329b2",
+      "name": "Gambrills/Crofton",
+      "address": "1119-K Md Route 3 North, Gambrills MD 21054 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/gambrills-crofton/"
+    },
+    {
+      "id": "a13673b988804ccf",
+      "name": "Georgetown",
+      "address": "3010 Williams Drive, Suite 177 Georgetown TX 78628 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/georgetown/"
+    },
+    {
+      "id": "795d1f239cd2b9da",
+      "name": "Glastonbury",
+      "address": "39 New London Turnpike, Glen Lochen Mall Glastonbury CT 06033 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/glastonbury/"
+    },
+    {
+      "id": "a1de493b697e5959",
+      "name": "Glendale",
+      "address": "2260 Honolulu Avenue, MONTROSE CA 91020 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/glendale/"
+    },
+    {
+      "id": "abb6d9f49f1afe25",
+      "name": "Glenview",
+      "address": "1328 Waukegan Road, Glenview IL 60025 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/glenview/"
+    },
+    {
+      "id": "9119a2db95a09d03",
+      "name": "Goodyear",
+      "address": "3730 South Estrella Parkway, Suite 201 Goodyear AZ 85338 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/goodyear/"
+    },
+    {
+      "id": "68e1e6ae9ecc63c6",
+      "name": "Grand Rapids",
+      "address": "4485 Plainfield Avenue N.e., Suite 207 Grand Rapids MI 49525-1605 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/grand-rapids/"
+    },
+    {
+      "id": "faa1b570d995e380",
+      "name": "Grapevine",
+      "address": "1271 William D. Tate Avenue, Grapevine TX 76051 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/grapevine/"
+    },
+    {
+      "id": "271f5cdd1bad5468",
+      "name": "Green Brook",
+      "address": "326 Us 22 West, Suite 11a Green Brook NJ 08812 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/green-brook/"
+    },
+    {
+      "id": "f0f260c5d76c3762",
+      "name": "Greenwich",
+      "address": "6 Lewis Street, Greenwich CT 06830-6606 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/greenwich/"
+    },
+    {
+      "id": "ec5341b46d2806d3",
+      "name": "Grosse Pointe Woods",
+      "address": "20507 Mack Avenue, Grosse Pointe Woods MI 48236 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/grosse-pointe-woods/"
+    },
+    {
+      "id": "211b11b88230ff39",
+      "name": "Guilford",
+      "address": "11 Water Street, GUILFORD CT 06437 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/guilford/"
+    },
+    {
+      "id": "b49405523841e1ee",
+      "name": "Hamden",
+      "address": "2838 Old Dixwell Avenue, HAMDEN CT 06518-3128 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/hamden/"
+    },
+    {
+      "id": "66e4aaf134636215",
+      "name": "Hayward",
+      "address": "22445 Foothill Blvd., Hayward CA 94541-4024 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/hayward/"
+    },
+    {
+      "id": "b445a9ea5f260f69",
+      "name": "Highland Park CA",
+      "address": "5021 N Figueroa , Suite D Los Angeles CA 90042 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/highlandparkca"
+    },
+    {
+      "id": "965f3b084650ea8a",
+      "name": "Highland Park, NJ",
+      "address": "75 Raritan Ave. #d, HIGHLAND PARK NJ 08904 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/highland-park-nj/"
+    },
+    {
+      "id": "b860bd3f909893d3",
+      "name": "Hillsboro",
+      "address": "6325 NW Cornelius Pass Road, Hillsboro OR 97124 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/hillsboro/"
+    },
+    {
+      "id": "2bebdae6ed80569b",
+      "name": "Hillsborough",
+      "address": "256 Route 206 South, Hillsborough NJ 08844 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/hillsborough/"
+    },
+    {
+      "id": "57385b199c3b1e98",
+      "name": "Honolulu",
+      "address": "12 South King Street, Suite 200, HONOLULU HI 96813 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/honolulu/"
+    },
+    {
+      "id": "d4050ed8cb01d1ea",
+      "name": "Houston-Cypress",
+      "address": "9521 Huffmeister Road, Houston TX 77095-2856 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/houston-cypress/"
+    },
+    {
+      "id": "05258c2b85a8fc79",
+      "name": "Houston-Sugar Land",
+      "address": "16525 Lexington Blvd., Suite 170 SUGAR LAND TX 77479 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/houston-sugar-land/"
+    },
+    {
+      "id": "4cc9616910ee4bea",
+      "name": "Houston-Woodlands",
+      "address": "27734 I-45 North, Suite A OAK RIDGE NORTH TX 77385 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/thewoodlands"
+    },
+    {
+      "id": "9f3670288f7d4806",
+      "name": "Hunters Creek",
+      "address": "3034 Dyer Blvd, Kissimmee FL 34741 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/hunters-creek/"
+    },
+    {
+      "id": "333f23ff54314a9b",
+      "name": "Jacksonville (S)",
+      "address": "11018 Old St. Augustine Road, Suite 110 Jacksonville FL 32257-1023 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/jacksonville-s/"
+    },
+    {
+      "id": "7e5b179d2fb71e0a",
+      "name": "Kennesaw",
+      "address": "2615 George Busbee Parkway, Suite 27 KENNESAW GA 30144 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/kennesaw/"
+    },
+    {
+      "id": "0785581738054cab",
+      "name": "Kentwood",
+      "address": "3089 29th Street Se, Kentwood MI 49512 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/kentwood/"
+    },
+    {
+      "id": "313b9ea8ec5a8c04",
+      "name": "Lake Forest/El Toro",
+      "address": "24302 Swartz Drive, Lake Forest CA 92630-4744 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lake-forest-el-toro/"
+    },
+    {
+      "id": "7d77e24f2416b811",
+      "name": "Lake Mary",
+      "address": "840 Currency Circle, LAKE MARY FL 32746 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lake-mary/"
+    },
+    {
+      "id": "baf0264194ca71af",
+      "name": "Lakeland",
+      "address": "309-1 West Main Street, LAKELAND FL 33801 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lakeland/"
+    },
+    {
+      "id": "fd6afff93bfe3abe",
+      "name": "Lakeview",
+      "address": "3301 North Lincoln Avenue, Chicago IL 60657 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lakeview/"
+    },
+    {
+      "id": "5f74fb10b951a792",
+      "name": "Lakewood",
+      "address": "3355 South Yarrow, #E-125 Lakewood CO 80227-4972 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lakewood/"
+    },
+    {
+      "id": "52dc464bd1d038f5",
+      "name": "Lancaster",
+      "address": "1357 B. Fruitville Pike, LANCASTER PA 17601-4001 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lancaster/"
+    },
+    {
+      "id": "a34b1810a9df7d3b",
+      "name": "Las Vegas (E)",
+      "address": "2580 Wigwam Parkway, Henderson NV 89074 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/las-vegas-e/"
+    },
+    {
+      "id": "2d74ca49e31ae364",
+      "name": "Las Vegas (W)",
+      "address": "4440 S. Durango Drive, Suite A Las Vegas NV 89147-8672 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/las-vegas-w/"
+    },
+    {
+      "id": "a730bbeaafd06f68",
+      "name": "Las Vegas Centennial",
+      "address": "7071 West Craig Road, Suite 104 LAS VEGAS NV 89129 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/las-vegas-centennial/"
+    },
+    {
+      "id": "a93da8f233df07a9",
+      "name": "Lauderdale By The Sea",
+      "address": "222 Commercial Boulevard, Suite 201 Lauderdale By The Sea FL 33308 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lauderdale-by-the-sea/"
+    },
+    {
+      "id": "f7eefda63f817d6e",
+      "name": "Lemoyne",
+      "address": "331 Market Street, Lemoyne PA 17043 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lemoyne/"
+    },
+    {
+      "id": "81e7030926551420",
+      "name": "Lenexa",
+      "address": "9217 Pflumm Road, Lenexa KS 66215 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lenexa/"
+    },
+    {
+      "id": "07d078315570fc4a",
+      "name": "Lexington KY",
+      "address": "1801 Alexandria Drive, Suite 132 Lexington KY 40504-3113 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lexington-ky/"
+    },
+    {
+      "id": "6ad2fa60a64d756e",
+      "name": "Lincolnshire",
+      "address": "175 Olde Half Day Road, Suite 300 LINCOLNSHIRE IL 60069 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/lincolnshire/"
+    },
+    {
+      "id": "513299a652d0c95d",
+      "name": "Livermore",
+      "address": "1947 2nd Street, Livermore CA 94550-4426 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/livermore/"
+    },
+    {
+      "id": "6b40d71cd41536c8",
+      "name": "Long Beach",
+      "address": "5236 East Los Altos Plaza, LONG BEACH CA 90815-4251 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/long-beach/"
+    },
+    {
+      "id": "2d368edcfcf7f0a1",
+      "name": "Los Gatos",
+      "address": "788 Blossom Hill Road, Los Gatos CA 95032 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/los-gatos/"
+    },
+    {
+      "id": "271c51f2ff5c69e7",
+      "name": "Madison",
+      "address": "5117 Verona Road, MADISON WI 53711 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/madison/"
+    },
+    {
+      "id": "93ba5ad0827b1f89",
+      "name": "Manalapan",
+      "address": "335 Us 9 South, Manalapan NJ 07726 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/manalapan/"
+    },
+    {
+      "id": "a64e21ba4a94b09d",
+      "name": "Manchester",
+      "address": "99 Elm Street, MANCHESTER NH 03101-2729 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/manchester/"
+    },
+    {
+      "id": "7470e23d255070d9",
+      "name": "Manhattan (S)",
+      "address": "286 Fifth Avenue, 3rd Floor New York NY 10001 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/manhattan-s/"
+    },
+    {
+      "id": "1a10e280c6cf7207",
+      "name": "Marlton",
+      "address": "117-C South Route 73, Marlton NJ 08053-3024 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/marlton/"
+    },
+    {
+      "id": "37fa8bebb12a8e38",
+      "name": "McMurray (S)",
+      "address": "3328 Washington Road, MCMURRAY PA 15317-3153 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/mcmurray-s/"
+    },
+    {
+      "id": "7704c68b864d94f1",
+      "name": "Melbourne, FL",
+      "address": "3000 Lake Washington Rd, Unit 3250, MELBOURNE FL 32934 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/melbourne-fl/"
+    },
+    {
+      "id": "15d18e6217c90cbc",
+      "name": "Merrick",
+      "address": "1619 Merrick Road, Merrick NY 11566-4540 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/merrick/"
+    },
+    {
+      "id": "ddcb285484e2287d",
+      "name": "Merrillville",
+      "address": "120 W Lincoln Highway, Suite 10 MERRILLVILLE IN 46410-5325 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/merrillville/"
+    },
+    {
+      "id": "1461d77ff35ea0ed",
+      "name": "Mesa",
+      "address": "3347 East Baseline Road, Gilbert AZ 85234 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/mesa/"
+    },
+    {
+      "id": "7540c1c929f27e4e",
+      "name": "Milford",
+      "address": "486 Bridgeport Avenue, Unit G Milford CT 06460 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/milford"
+    },
+    {
+      "id": "252e51ef32b99b1c",
+      "name": "Mill Creek",
+      "address": "3432 132nd Street SE, Mill Creek WA 98012 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/mill-creek/"
+    },
+    {
+      "id": "f8fbe16961c44595",
+      "name": "Millbrae",
+      "address": "120 South El Camino Real, Suite 7 MILLBRAE CA 94030 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/millbrae/"
+    },
+    {
+      "id": "3e5c47d05385de77",
+      "name": "Minneapolis/Edina",
+      "address": "5041 France Avenue South, MINNEAPOLIS MN 55410-2034 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/minneapolis-edina/"
+    },
+    {
+      "id": "ef4a65bda618b661",
+      "name": "Moline",
+      "address": "7002 John Deere Pkwy, MOLINE IL 61265 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/moline/"
+    },
+    {
+      "id": "57983a797a3162d7",
+      "name": "Montclair CA",
+      "address": "8660 Central Avenue, Suite A MONTCLAIR CA 91763 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/montclair-ca/"
+    },
+    {
+      "id": "bc8659b19414bb09",
+      "name": "Montclair NJ",
+      "address": "365 Bloomfield Avenue, Montclair NJ 07042 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/montclair-nj/"
+    },
+    {
+      "id": "bc8a3134a53603b8",
+      "name": "Monterey",
+      "address": "2260 N. Fremont Street, MONTEREY CA 93940 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/monterey/"
+    },
+    {
+      "id": "59daf1589181e959",
+      "name": "Montgomery",
+      "address": "10792 Montgomery Road, #2 Cincinnati OH 45242 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/montgomery/"
+    },
+    {
+      "id": "13d02ade66889b2d",
+      "name": "Morristown",
+      "address": "16 Pine Street, Morristown NJ 07960 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/morristown/"
+    },
+    {
+      "id": "9e2b97abb978dd70",
+      "name": "Mt Pleasant",
+      "address": "1136 Hungryneck Boulevard, Suite E Mount Pleasant SC 29464 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/mtpleasant"
+    },
+    {
+      "id": "639f2ae09792f985",
+      "name": "Mt. Kisco",
+      "address": "175 East Main Street, MT. KISCO NY 10549 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/mt-kisco/"
+    },
+    {
+      "id": "cc083eccca3cafa7",
+      "name": "Napa",
+      "address": "929 Vallejo Street, NAPA CA 94559 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/napa/"
+    },
+    {
+      "id": "878f85fcb3b77a97",
+      "name": "Naperville",
+      "address": "2811 Patriots Lane, NAPERVILLE IL 60563 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/naperville/"
+    },
+    {
+      "id": "22b7541fe7350df3",
+      "name": "Narberth",
+      "address": "913 Montgomery Avenue, 2nd Floor Narberth PA 19072-1501 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/narberth/"
+    },
+    {
+      "id": "06751a9dad58c957",
+      "name": "Nashville-Brentwood",
+      "address": "4926 Thoroughbred Lane, Brentwood TN 37027 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/nashville-brentwood/"
+    },
+    {
+      "id": "0f9e988c3a4d9751",
+      "name": "Nashville-Green Hills",
+      "address": "4009 Hillsboro Pike, Suite 211 Nashville TN 37215 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/nashville-green-hills/"
+    },
+    {
+      "id": "60dbf6faa36f0156",
+      "name": "Natick",
+      "address": "10 Main Street, Natick MA 01760 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/natick/"
+    },
+    {
+      "id": "4acae37bcedd6135",
+      "name": "New Britain",
+      "address": "623 Hartford Road, NEW BRITAIN CT 06053-1526 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/new-britain/"
+    },
+    {
+      "id": "086bcbb35c925d77",
+      "name": "New York",
+      "address": "1711 First Avenue, Unit C1 NEW YORK NY 10128 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/new-york/"
+    },
+    {
+      "id": "b5f4a937556012a2",
+      "name": "Newport",
+      "address": "1829 Monmouth Street,, Newport KY 41071 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/newport/"
+    },
+    {
+      "id": "b7a324514639a9f8",
+      "name": "Niantic",
+      "address": "287 Main Street, Niantic CT 06357-3101 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/niantic/"
+    },
+    {
+      "id": "d287167eb36cbd62",
+      "name": "North Hampton",
+      "address": "29 Lafayette Road, Suite G North Hampton NH 03862 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/north-hampton/"
+    },
+    {
+      "id": "3ca0114f43c95991",
+      "name": "Northville",
+      "address": "42000 West Six Mile Road, Suite 250 Northville MI 48168 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/northville/"
+    },
+    {
+      "id": "72de6c450a74707d",
+      "name": "Oakbrook Terrace",
+      "address": "1915 South Meyers Road, OAKBROOK TERRACE IL 60181 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/oakbrook-terrace/"
+    },
+    {
+      "id": "cbaddb311ace74fe",
+      "name": "Ocala",
+      "address": "20 W Silver Springs Blvd, OCALA FL 34475 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/ocala/"
+    },
+    {
+      "id": "d7390f648b35ae27",
+      "name": "Olympia",
+      "address": "219 6th Ave Se, Suite B Lacey WA 98503 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/olympia/"
+    },
+    {
+      "id": "cbfb7eb0347a6b27",
+      "name": "Orange",
+      "address": "1601 East Lincoln Avenue, Suite 200 Orange CA 92865-1929 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/orange/"
+    },
+    {
+      "id": "ae67db352dba2752",
+      "name": "Orange City",
+      "address": "855 Harley Strickland Blvd., Suite 100 ORANGE CITY FL 32763 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/orange-city/"
+    },
+    {
+      "id": "6870c1f676999652",
+      "name": "Orland Park",
+      "address": "16131 La Grange Road, ORLAND PARK IL 60467 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/orland-park/"
+    },
+    {
+      "id": "422ed9f82cf896e6",
+      "name": "Orlando",
+      "address": "6700 Conroy Windermere Road, Suite 215-225 ORLANDO FL 32835-3515 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/orlando/"
+    },
+    {
+      "id": "2798c58cb9a8f339",
+      "name": "Ormond Beach",
+      "address": "189 East Granada Boulevard, ORMOND BEACH FL 32176 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/ormond-beach/"
+    },
+    {
+      "id": "5d7c1ad7ce652766",
+      "name": "Palm Coast",
+      "address": "160 Cypress Point Parkway, #A214 Palm Coast FL 32164 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/palm-coast/"
+    },
+    {
+      "id": "89d81675f10df2df",
+      "name": "Paoli",
+      "address": "20 W. Lancaster Avenue, 2nd Floor Paoli PA 19301-1342 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/paoli/"
+    },
+    {
+      "id": "787616de5243bf5e",
+      "name": "Parkland",
+      "address": "7631 North State Road 7, Parkland FL 33073 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/parkland/"
+    },
+    {
+      "id": "e31bd0a0b55ecf8a",
+      "name": "Pasadena",
+      "address": "740 East Green Street, PASADENA CA 91101 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/pasadena/"
+    },
+    {
+      "id": "994eb7ddd51f88e0",
+      "name": "Petaluma",
+      "address": "701 Sonoma Mountain Parkway #d2, Petaluma CA 94954 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/petaluma/"
+    },
+    {
+      "id": "bdc78f04ad3f927e",
+      "name": "Phoenix",
+      "address": "4540 North 7th Street, Suite 1 PHOENIX AZ 85014 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/phoenix/"
+    },
+    {
+      "id": "49a74e1fda37fa47",
+      "name": "Pittsburgh (DT)",
+      "address": "136 6th Street, PITTSBURGH PA 15222-3306 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/pittsburgh-dt/"
+    },
+    {
+      "id": "c884ff20460b8fd9",
+      "name": "Pittsburgh (E)",
+      "address": "655 Rodi Road, 1 Rodi Plaza, Suite 102 PITTSBURGH PA 15235 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/pittsburgh-e/"
+    },
+    {
+      "id": "4ca10919decd849e",
+      "name": "Pittsburgh (W)",
+      "address": "5407 Steubenville Pike, Pittsburgh PA 15136 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/pittsburgh-w/"
+    },
+    {
+      "id": "92ecb4fd80ede406",
+      "name": "Plano",
+      "address": "3001 W. Spring Creek Parkway, PLANO TX 75023-4630 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/plano"
+    },
+    {
+      "id": "963ff84d3833acd0",
+      "name": "Ponte Vedra Beach",
+      "address": "1108 Highway A1a, Suite 104, Mickler's Landing Shopping Center PONTE VEDRA BEACH FL 32082 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/pontevedrabeach"
+    },
+    {
+      "id": "824f2430e0a84e5e",
+      "name": "Port Jefferson Station",
+      "address": "4747 Ny-347, PORT JEFFERSON STATION NY 11776 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/port-jefferson-station/"
+    },
+    {
+      "id": "6eb4f56472017f97",
+      "name": "Portland",
+      "address": "2526 N.e. Broadway Street, PORTLAND OR 97232-1636 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/portland/"
+    },
+    {
+      "id": "af4ff808a75883fe",
+      "name": "Prince Frederick",
+      "address": "205 Steeple Chase Drive, Suites 301-302 PRINCE FREDERICK MD 20678 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/prince-frederick/"
+    },
+    {
+      "id": "08af838588a0bc0c",
+      "name": "Princeton",
+      "address": "64 Princeton Hightstown Road, Suite 21 Princeton Junction NJ 08550 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/princeton/"
+    },
+    {
+      "id": "69b1092d8151bbdd",
+      "name": "Puyallup",
+      "address": "14312 Meridian Avenue E, Ste 101 Puyallup WA 98373 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/puyallup/"
+    },
+    {
+      "id": "9b7a2c639ef48bd9",
+      "name": "Raleigh",
+      "address": "6250 Plantation Center Drive, Suite 107 RALEIGH NC 27616 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/raleigh/"
+    },
+    {
+      "id": "aa1bd4ad0aa6c3e5",
+      "name": "Raleigh (Downtown)",
+      "address": "401 North West Street, Suite 121 Raleigh NC 27603 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/raleigh-downtown/"
+    },
+    {
+      "id": "7904653587018fce",
+      "name": "Rancho Bernardo",
+      "address": "16769 Bernardo Center Drive, Unit 26 RANCHO BERNARDO CA 92128 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/rancho-bernardo/"
+    },
+    {
+      "id": "28e4cf5a9a89ce83",
+      "name": "Red Bank",
+      "address": "58 Broad Street, Red Bank NJ 07701 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/red-bank/"
+    },
+    {
+      "id": "45d2132feeb29dce",
+      "name": "Red Mill",
+      "address": "2217 Upton Drive, Suites 802 Virginia Beach VA 23456 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/red-mill/"
+    },
+    {
+      "id": "8946d00834bd0bfd",
+      "name": "Redlands",
+      "address": "525 New Jersey Street, Suite D Redlands CA 92373 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/redlands/"
+    },
+    {
+      "id": "eeb6714d91e95cc1",
+      "name": "Redwood City",
+      "address": "344 Walnut Street, REDWOOD CITY CA 94063-1533 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/redwood-city/"
+    },
+    {
+      "id": "a340f6549cfc53d5",
+      "name": "Reno",
+      "address": "2920 Mill Street, RENO NV 89502 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/reno"
+    },
+    {
+      "id": "5825e628668601fd",
+      "name": "Richmond",
+      "address": "3983 Deep Rock Road, RICHMOND VA 23233 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/richmond/"
+    },
+    {
+      "id": "7c78decdf50492e8",
+      "name": "Ridgewood",
+      "address": "125 East Ridgewood Avenue, Ridgewood NJ 07450-3886 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/ridgewood/"
+    },
+    {
+      "id": "8fa668e131ad015e",
+      "name": "Riverside",
+      "address": "3684 Sunnyside Drive, RIVERSIDE CA 92506-2413 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/riverside/"
+    },
+    {
+      "id": "56658fcb982d3655",
+      "name": "Roanoke",
+      "address": "4369 Starkey Road, Roanoke VA 24018-2810 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/roanoke/"
+    },
+    {
+      "id": "f7b7de236aec258b",
+      "name": "Rochester",
+      "address": "3400 Monroe Avenue, #13 Rochester NY 14618 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/rochester/"
+    },
+    {
+      "id": "b3202f0d5a1f7fb3",
+      "name": "Rockford",
+      "address": "7326 N. Cherryvale Mall Drive, Suite #5 Rockford IL 61112-1059 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/rockford/"
+    },
+    {
+      "id": "2e6f15927ab890c1",
+      "name": "Rocklin",
+      "address": "4770 Rocklin Road, Rocklin CA 95677 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/rocklin/"
+    },
+    {
+      "id": "44bfac0f2d02e279",
+      "name": "Rogers",
+      "address": "4200 West Green Acres Road, Suite 302 Rogers AR 72758 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/rogers/"
+    },
+    {
+      "id": "1ebb015c81a2f036",
+      "name": "Royal Oak",
+      "address": "30532 Woodward Avenue, ROYAL OAK MI 48073 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/royal-oak/"
+    },
+    {
+      "id": "cfbff1351293705c",
+      "name": "Sacramento",
+      "address": "1616 29th Street, SACRAMENTO CA 95816 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/sacramento/"
+    },
+    {
+      "id": "6978661193419806",
+      "name": "Salem",
+      "address": "2755 Commercial Street Se, Suite #202 SALEM OR 97302 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/salem/"
+    },
+    {
+      "id": "3bbfb8e8b2627b96",
+      "name": "Salt Lake City",
+      "address": "389 West 1830 South, Suite 500 Salt Lake City UT 84115 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/salt-lake-city/"
+    },
+    {
+      "id": "cd818b6866abb718",
+      "name": "San Antonio",
+      "address": "2581 Jackson Keller Road, San Antonio TX 78230 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/san-antonio/"
+    },
+    {
+      "id": "f9644edd09349640",
+      "name": "San Diego",
+      "address": "7510 Hazard Center Drive, Suite 619 SAN DIEGO CA 92108 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/san-diego/"
+    },
+    {
+      "id": "a36c67b5491fdff4",
+      "name": "San Francisco",
+      "address": "344 Austin Street, SAN FRANCISCO CA 94109 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/san-francisco/"
+    },
+    {
+      "id": "c29eceead1fee251",
+      "name": "San Jose",
+      "address": "1035 S. Deanza Blvd., Suite 3 San Jose CA 95129-2772 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/san-jose/"
+    },
+    {
+      "id": "e629cdf94580ac93",
+      "name": "San Juan",
+      "address": "Ave. Caribbean Towers, 670 Avenida Ponce De Leon, #21 SAN JUAN PR 00907-3207 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/san-juan/"
+    },
+    {
+      "id": "4485c722a3281c7e",
+      "name": "San Rafael",
+      "address": "1654 Second Street, Suite B San Rafael CA 94901 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/san-rafael/"
+    },
+    {
+      "id": "7cc888452af1bf68",
+      "name": "Sandy Springs",
+      "address": "227 Sandy Springs Place, Suite 380 Sandy Springs GA 30328 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/sandysprings/"
+    },
+    {
+      "id": "53446c78cc2b608a",
+      "name": "Santa Barbara",
+      "address": "222 West Carrillo Street, #C Santa Barbara CA 93101-3709 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/santa-barbara/"
+    },
+    {
+      "id": "2cd8269e3c2069ef",
+      "name": "Santa Monica",
+      "address": "928 Broadway, Santa Monica CA 90401-2713 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/santa-monica/"
+    },
+    {
+      "id": "4ce698b1ad4074b1",
+      "name": "Santa Rosa",
+      "address": "415 Davis Street, Santa Rosa CA 95401 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/santa-rosa/"
+    },
+    {
+      "id": "1d334f240f431835",
+      "name": "Sarasota",
+      "address": "8383 South Tamiami Trail, Suite 114 Sarasota FL 34238 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/sarasota/"
+    },
+    {
+      "id": "1d391c65da355827",
+      "name": "Sarasota (DT)",
+      "address": "2074 Ringling Boulevard, Sarasota FL 34237 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/sarasota-dt/"
+    },
+    {
+      "id": "2d8b9213106f39b4",
+      "name": "Saratoga Springs",
+      "address": "543 BROADWAY, 2ND FLOOR SARATOGA SPRINGS NY 12866-2154 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/saratoga-springs/"
+    },
+    {
+      "id": "7d534be16f621067",
+      "name": "Schaumburg",
+      "address": "608 EAST GOLF ROAD, Schaumburg IL 60173-4510 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/schaumburg/"
+    },
+    {
+      "id": "d662055d29643309",
+      "name": "Scotts Valley",
+      "address": "221 MOUNT HERMON ROAD, SUITES A & B SCOTTS VALLEY CA 95066 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/scotts-valley/"
+    },
+    {
+      "id": "584d96b4f4e3eed3",
+      "name": "Scottsdale",
+      "address": "7835 E REDFIELD ROAD, SUITE 206 SCOTTSDALE AZ 85260 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/scottsdale/"
+    },
+    {
+      "id": "12133f5c55b4c483",
+      "name": "Seattle",
+      "address": "130 WESTERN AVENUE WEST, Seattle WA 98119 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/seattle/"
+    },
+    {
+      "id": "4e3d816cec7ad097",
+      "name": "Seattle-Shoreline",
+      "address": "13510 AURORA AVENUE N., SUITE C SEATTLE WA 98133 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/seattle-shoreline/"
+    },
+    {
+      "id": "22e8db893d899044",
+      "name": "Shelby",
+      "address": "46975 VAN DYKE AVENUE, Shelby Township MI 48317 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/shelby/"
+    },
+    {
+      "id": "58795eab7bba8340",
+      "name": "Sherman Oaks",
+      "address": "4633 VAN NUYS BLVD., SHERMAN OAKS CA 91403-2916 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/sherman-oaks/"
+    },
+    {
+      "id": "6cf5949a99ccd761",
+      "name": "Silver Spring",
+      "address": "12301 OLD COLUMBIA PIKE, SUITE 300 Silver Spring MD 20904 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/silver-spring/"
+    },
+    {
+      "id": "215a9972e3b6a0fc",
+      "name": "Silverdale",
+      "address": "10600 SILVERDALE WAY NW, STE 140, SILVERDALE WA 98383 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/silverdale/"
+    },
+    {
+      "id": "702ce24f4d189784",
+      "name": "Solana Beach",
+      "address": "983 LOMAS SANTA FE DRIVE, SUITES A & B SOLANA BEACH CA 92075 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/solana-beach/"
+    },
+    {
+      "id": "6221796f212ee941",
+      "name": "Spokane",
+      "address": "1916 WEST FRANCIS AVENUE, SPOKANE WA 99205 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/spokane/"
+    },
+    {
+      "id": "d534c72edff9f08b",
+      "name": "St. Augustine",
+      "address": "84 THEATRE DRIVE, SUITE 300 ST. AUGUSTINE FL 32086 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/st-augustine/"
+    },
+    {
+      "id": "1fb9e8e94ba4fc74",
+      "name": "St. Paul",
+      "address": "99 Snelling Avenue North, St. Paul MN 55104 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/st-paul/"
+    },
+    {
+      "id": "6f4030290f507d92",
+      "name": "St. Petersburg",
+      "address": "3350 TYRONE BOULEVARD NORTH, SAINT PETERSBURG FL 33710 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/st-petersburg/"
+    },
+    {
+      "id": "af9b114f008262f2",
+      "name": "Stafford",
+      "address": "24 Center Street, Suite 107 Stafford VA 22556 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/stafford/"
+    },
+    {
+      "id": "61128d4e022f417d",
+      "name": "Stockton",
+      "address": "1267 N. COUNTRY CLUB BLVD., STOCKTON CA 95207 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/stockton/"
+    },
+    {
+      "id": "1fdbb15efffb32d2",
+      "name": "Succasunna",
+      "address": "126 ROUTE WEST, SUCCASUNNA NJ 07876 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/succasunna/"
+    },
+    {
+      "id": "4d05569f289439f7",
+      "name": "Summerville",
+      "address": "THE SHOPPES AT BACONS BRIDGE, 850 BACONS BRIDGE ROAD, SUITES B & C Summerville SC 29485 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/summerville/"
+    },
+    {
+      "id": "d28fbba10a95c181",
+      "name": "Swansea",
+      "address": "544 MILFORD ROAD, #24 SWANSEA MA 02777-4500 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/swansea/"
+    },
+    {
+      "id": "f8ddc25bcdf9bdb0",
+      "name": "Syosset",
+      "address": "1 Locust Lane, Syosset NY 11791 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/syosset/"
+    },
+    {
+      "id": "7ded69b84d48b8b6",
+      "name": "Tacoma",
+      "address": "5821 Sprague Ct., Suite 101 TACOMA WA 98409-6905 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/tacoma/"
+    },
+    {
+      "id": "38132ceeb2837b0d",
+      "name": "Tampa",
+      "address": "2111 W. Swann Ave, Suite 201 TAMPA FL 33606 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/tampa/"
+    },
+    {
+      "id": "f177b5c910365393",
+      "name": "Tampa (N)",
+      "address": "14436 N. Dale Mabry Highway, TAMPA FL 33618 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/tampa-n/"
+    },
+    {
+      "id": "36c34b30dee0c224",
+      "name": "Temecula",
+      "address": "27470 Jefferson Avenue, Suite 6B TEMECULA CA 92591 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/temecula/"
+    },
+    {
+      "id": "5bb894dd5210671a",
+      "name": "Temple",
+      "address": "2102 Sw H K Dodgen Loop, Suite 100 TEMPLE TX 76504 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/temple/"
+    },
+    {
+      "id": "e5980d69d4a6fe64",
+      "name": "Tenafly",
+      "address": "12 Washington Street, TENAFLY NJ 07670 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/tenafly/"
+    },
+    {
+      "id": "778571ad65f8a3f8",
+      "name": "Thousand Oaks",
+      "address": "3065 E. Thousand Oaks Boulevard, Unit 4 THOUSAND OAKS CA 91362-5914 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/thousand-oaks/"
+    },
+    {
+      "id": "555259c90ee10178",
+      "name": "Toledo",
+      "address": "5650 W. Central Ave, Suite A Toledo OH 43615 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/toledo"
+    },
+    {
+      "id": "6f6e2f971083c322",
+      "name": "Torrance",
+      "address": "2521 Pacific Coast Hwy., Torrance CA 90505 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/torrance/"
+    },
+    {
+      "id": "c1bc1dd7d33b31ed",
+      "name": "Tysons Corner",
+      "address": "1953 Gallows Road, Suite 175 VIENNA VA 22182 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/tysons-corner/"
+    },
+    {
+      "id": "022a18ddfccd2837",
+      "name": "Valencia",
+      "address": "27674 Newhall Ranch Road, Suite D-10, Valencia CA 91355 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/valencia/"
+    },
+    {
+      "id": "4c8ad292c124e76f",
+      "name": "Vallejo",
+      "address": "480 Redwood St, Suite 44/45 Vallejo CA 94590 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/vallejo/"
+    },
+    {
+      "id": "c06eaf06bc87d2ba",
+      "name": "Vancouver WA",
+      "address": "808 Se Chkalov Drive, Suite 9 VANCOUVER WA 98683 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/vancouver-wa/"
+    },
+    {
+      "id": "f654501e322939e7",
+      "name": "Ventura",
+      "address": "5725 Ralston Street, #210 VENTURA CA 93003-6053 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/ventura/"
+    },
+    {
+      "id": "a081250c7702c5ab",
+      "name": "Vernon",
+      "address": "520 Hartford Turnpike, Unit A Vernon CT 06066 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/vernon/"
+    },
+    {
+      "id": "3380565f0afc2f26",
+      "name": "Virginia Beach",
+      "address": "3707 Virginia Beach Boulevard, Suite 200 VIRGINIA BEACH VA 23452-3412 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/virginia-beach/"
+    },
+    {
+      "id": "56ea82d5ec58cbfc",
+      "name": "Waco",
+      "address": "1411 N. Valley Mills Drive, Suite 13 WACO TX 76710 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/waco/"
+    },
+    {
+      "id": "2a3f7c6018927990",
+      "name": "Walnut Creek",
+      "address": "2262 Oak Grove Street, WALNUT CREEK CA 94598 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/walnut-creek/"
+    },
+    {
+      "id": "06a47cb3c3d6585c",
+      "name": "Waterford Lakes",
+      "address": "11602 Lake Underhill Road, Suite 137 Orlando FL 32825 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/waterford-lakes/"
+    },
+    {
+      "id": "4e5ada153b00c3d0",
+      "name": "Wesley Chapel",
+      "address": "2634 Cypress Ridge Blvd., Suite 101 Wesley Chapel FL 33544 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/wesley-chapel/"
+    },
+    {
+      "id": "c09bea4a9e7824b6",
+      "name": "West Chester",
+      "address": "7127 Liberty Centre Drive, West Chester OH 45069 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/west-chester/"
+    },
+    {
+      "id": "f36298b6a78643d2",
+      "name": "West Covina",
+      "address": "3660 Nogales St, Unit J West Covina CA 91712 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/westcovina"
+    },
+    {
+      "id": "3002a15ee4753873",
+      "name": "West Seattle",
+      "address": "4505 42nd Avenue Sw, Suite 9456 Seattle WA 98116 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/west-seattle/"
+    },
+    {
+      "id": "95959a536a4889ee",
+      "name": "Westlake",
+      "address": "3801 N Capital Of Texas Highway, Suite D220 Austin TX 78746 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/westlake/"
+    },
+    {
+      "id": "af673d80dc152064",
+      "name": "Wexford (N)",
+      "address": "10 North Meadows Drive, Wexford PA 15090-8367 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/wexford-n/"
+    },
+    {
+      "id": "12bca3c21987c3c9",
+      "name": "Weymouth",
+      "address": "2 West Street, Unit G WEYMOUTH MA 02190 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/weymouth/"
+    },
+    {
+      "id": "450783572fe3ba76",
+      "name": "White Plains",
+      "address": "139 East Post Road, White Plains NY 10601-4207 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/white-plains/"
+    },
+    {
+      "id": "2ac826d6705b6682",
+      "name": "Whitefish Bay",
+      "address": "109 East Silver Spring Drive, WHITEFISH BAY WI 53217 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/whitefish-bay/"
+    },
+    {
+      "id": "4e049c13a93e7171",
+      "name": "Wildwood",
+      "address": "9819 - 9823 Us 301, WILDWOOD FL 34785 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/wildwood/"
+    },
+    {
+      "id": "d7a66157127e538b",
+      "name": "Williston Park",
+      "address": "433 Willis Avenue, WILLISTON PARK NY 11596-2229 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/williston-park/"
+    },
+    {
+      "id": "d086f90b232c815a",
+      "name": "Wilsonville",
+      "address": "8633 Sw Main Street, #400 WILSONVILLE OR 97070 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/wilsonville/"
+    },
+    {
+      "id": "9ce387eaaeaa82a3",
+      "name": "Winter Park, FL",
+      "address": "5562 Lake Howell Road, WINTER PARK FL 32792 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/winter-park-fl/"
+    },
+    {
+      "id": "5ac40c3ac7e311d4",
+      "name": "Woodland Hills",
+      "address": "21723 Vanowen Street, Canoga Park CA 91303 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/woodland-hills/"
+    },
+    {
+      "id": "331af697d3663210",
+      "name": "Worcester",
+      "address": "70 James Street, #137 WORCESTER MA 01603-1000 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/worcester/"
+    },
+    {
+      "id": "e3e722955bc4a9c9",
+      "name": "York",
+      "address": "Kingston Square Shopping Center, 2566 Eastern Blvd. York PA 17402-2914 United States",
+      "region": "United States",
+      "url": "https://www.arthurmurray.com/studios/york/"
+    }
+  ]
+}
