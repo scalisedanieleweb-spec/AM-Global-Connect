@@ -102,6 +102,8 @@ def main():
         if not e['city']:e['city']=old.get(e['url'],{}).get('city','')
         if not e['venue']:e['venue']=old.get(e['url'],{}).get('venue','')
     data={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':URL,'events':events}
+    
+OUT.parent.mkdir(parents=True, exist_ok=True)
     tmp=OUT.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');tmp.replace(OUT)
     print(f'Updated {len(events)} events')
 
