@@ -16,3 +16,8 @@ for word in ["USA Locations", "Canada", "International", "Albuquerque"]:
 
 print("Number of links:", len(soup.find_all("a", href=True)))
 print("Number of headings:", len(soup.find_all(["h1", "h2", "h3", "h4"])))
+
+for h in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6"]):
+    title = h.get_text(" ", strip=True)
+    if any(x in title.lower() for x in ["usa locations", "canada locations", "international", "albuquerque"]):
+        print("HEADING:", repr(title), "TAG:", h.name, "PARENT:", h.parent.name if h.parent else "none")
