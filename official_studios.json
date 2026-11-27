@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-26T12:59:43.320304+00:00",
+  "checked_at": "2026-11-27T12:56:28.730795+00:00",
   "source": "https://www.arthurmurray.com/locations/",
   "count": 332,
   "counts": {
@@ -531,7 +531,7 @@
       "name": "Arrowhead",
       "address": "16671 North 84th Avenue, Suite 170 PEORIA AZ 85382 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/arrowhead/"
+      "url": "https://arrowheadarthurmurray.com/"
     },
     {
       "id": "fa585fc05aa18e61",
@@ -608,7 +608,7 @@
       "name": "Bloomington",
       "address": "1711 North College Avenue, Bloomington IN 47404 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/bloomington/"
+      "url": "https://bloomingtonarthurmurray.com/"
     },
     {
       "id": "da7c379cc66802f4",
@@ -692,7 +692,7 @@
       "name": "Cary",
       "address": "1040 Darrington Drive, Suite 106 Cary NC 27513 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/cary/"
+      "url": "https://caryarthurmurray.com/"
     },
     {
       "id": "f242ce582ee92d73",
@@ -713,7 +713,7 @@
       "name": "Charlotte",
       "address": "8700 Pineville-Matthews Rd, Suite 800 Charlotte NC 28226 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/charlotte/"
+      "url": "https://charlottearthurmurray.com/"
     },
     {
       "id": "3d3640d1b4fcd9f3",
@@ -727,14 +727,14 @@
       "name": "Chevy Chase",
       "address": "5481-H Wisconsin Avenue, Chevy Chase MD 20815 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/chevy-chase/"
+      "url": "https://chevychasearthurmurray.com/"
     },
     {
       "id": "88d75dff590834ee",
       "name": "Chicago",
       "address": "116 West Illinois Street, Chicago IL 60654 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/chicago/"
+      "url": "https://chicagoarthurmurray.com/"
     },
     {
       "id": "449fde002e6e9bb9",
@@ -776,7 +776,7 @@
       "name": "Conroe",
       "address": "3846 West Davis Street, Conroe TX 77304 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/conroe"
+      "url": "https://arthurmurray.com/conroe"
     },
     {
       "id": "4f3e4e2f5ffd1570",
@@ -790,7 +790,7 @@
       "name": "Cornelius",
       "address": "19907 North Cove Rd., Cornelius NC 28031 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/cornelius/"
+      "url": "https://charlottearthurmurray.com/"
     },
     {
       "id": "4252074542dbebe9",
@@ -839,7 +839,7 @@
       "name": "Davis",
       "address": "1720 Research Park Drive, Suite 2101 Davis CA 95618 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/davis"
+      "url": "https://arthurmurray.com/davis"
     },
     {
       "id": "f1f9c5d3b9ee7617",
@@ -881,7 +881,7 @@
       "name": "Durham",
       "address": "410 West Geer Street, Durham NC 27701 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/durham/"
+      "url": "https://durhamarthurmurray.com/"
     },
     {
       "id": "5e968ce9f8ba0092",
@@ -895,7 +895,7 @@
       "name": "Eau Claire",
       "address": "4288 London Road, Eau Claire WI 54701-3606 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/eau-claire/"
+      "url": ""
     },
     {
       "id": "cf146533ca71d589",
@@ -951,7 +951,7 @@
       "name": "Fishers",
       "address": "11650 Olio Road, Suite 800 Fishers IN 46037 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/fishers"
+      "url": "https://arthurmurray.com/fishers"
     },
     {
       "id": "83d5252cc04b6da2",
@@ -1042,7 +1042,7 @@
       "name": "Goodyear",
       "address": "3730 South Estrella Parkway, Suite 201 Goodyear AZ 85338 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/goodyear/"
+      "url": "https://goodyeararthurmurray.com/"
     },
     {
       "id": "68e1e6ae9ecc63c6",
@@ -1105,7 +1105,7 @@
       "name": "Highland Park CA",
       "address": "5021 N Figueroa , Suite D Los Angeles CA 90042 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/highlandparkca"
+      "url": "https://arthurmurray.com/highlandparkca"
     },
     {
       "id": "965f3b084650ea8a",
@@ -1154,7 +1154,7 @@
       "name": "Houston-Woodlands",
       "address": "27734 I-45 North, Suite A OAK RIDGE NORTH TX 77385 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/thewoodlands"
+      "url": "https://arthurmurray.com/thewoodlands"
     },
     {
       "id": "9f3670288f7d4806",
@@ -1210,7 +1210,7 @@
       "name": "Lakeview",
       "address": "3301 North Lincoln Avenue, Chicago IL 60657 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/lakeview/"
+      "url": "https://lakeviewarthurmurray.com/"
     },
     {
       "id": "5f74fb10b951a792",
@@ -1266,7 +1266,7 @@
       "name": "Lenexa",
       "address": "9217 Pflumm Road, Lenexa KS 66215 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/lenexa/"
+      "url": "https://kcarthurmurray.com/"
     },
     {
       "id": "07d078315570fc4a",
@@ -1336,7 +1336,7 @@
       "name": "Marlton",
       "address": "117-C South Route 73, Marlton NJ 08053-3024 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/marlton/"
+      "url": "https://njarthurmurray.com/"
     },
     {
       "id": "37fa8bebb12a8e38",
@@ -1378,7 +1378,7 @@
       "name": "Milford",
       "address": "486 Bridgeport Avenue, Unit G Milford CT 06460 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/milford"
+      "url": "https://arthurmurray.com/milford"
     },
     {
       "id": "252e51ef32b99b1c",
@@ -1448,7 +1448,7 @@
       "name": "Mt Pleasant",
       "address": "1136 Hungryneck Boulevard, Suite E Mount Pleasant SC 29464 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/mtpleasant"
+      "url": "https://arthurmurray.com/mtpleasant"
     },
     {
       "id": "639f2ae09792f985",
@@ -1497,7 +1497,7 @@
       "name": "Natick",
       "address": "10 Main Street, Natick MA 01760 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/natick/"
+      "url": "https://natickarthurmurray.com/"
     },
     {
       "id": "4acae37bcedd6135",
@@ -1665,14 +1665,14 @@
       "name": "Plano",
       "address": "3001 W. Spring Creek Parkway, PLANO TX 75023-4630 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/plano"
+      "url": "https://arthurmurray.com/plano"
     },
     {
       "id": "963ff84d3833acd0",
       "name": "Ponte Vedra Beach",
       "address": "1108 Highway A1a, Suite 104, Mickler's Landing Shopping Center PONTE VEDRA BEACH FL 32082 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/pontevedrabeach"
+      "url": "https://arthurmurray.com/pontevedrabeach"
     },
     {
       "id": "824f2430e0a84e5e",
@@ -1770,7 +1770,7 @@
       "name": "Reno",
       "address": "2920 Mill Street, RENO NV 89502 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/reno"
+      "url": "https://arthurmurray.com/reno"
     },
     {
       "id": "5825e628668601fd",
@@ -1889,7 +1889,7 @@
       "name": "San Juan",
       "address": "Ave. Caribbean Towers, 670 Avenida Ponce De Leon, #21 SAN JUAN PR 00907-3207 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/san-juan/"
+      "url": ""
     },
     {
       "id": "4485c722a3281c7e",
@@ -1903,7 +1903,7 @@
       "name": "Sandy Springs",
       "address": "227 Sandy Springs Place, Suite 380 Sandy Springs GA 30328 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/sandysprings/"
+      "url": "https://arthurmurray.com/sandysprings/"
     },
     {
       "id": "53446c78cc2b608a",
@@ -1952,7 +1952,7 @@
       "name": "Schaumburg",
       "address": "608 EAST GOLF ROAD, Schaumburg IL 60173-4510 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/schaumburg/"
+      "url": "https://schaumburgarthurmurray.com/"
     },
     {
       "id": "d662055d29643309",
@@ -2036,14 +2036,14 @@
       "name": "St. Paul",
       "address": "99 Snelling Avenue North, St. Paul MN 55104 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/st-paul/"
+      "url": "https://stpaularthurmurray.com/"
     },
     {
       "id": "6f4030290f507d92",
       "name": "St. Petersburg",
       "address": "3350 TYRONE BOULEVARD NORTH, SAINT PETERSBURG FL 33710 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/st-petersburg/"
+      "url": "https://stpetearthurmurray.com/"
     },
     {
       "id": "af9b114f008262f2",
@@ -2141,7 +2141,7 @@
       "name": "Toledo",
       "address": "5650 W. Central Ave, Suite A Toledo OH 43615 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/toledo"
+      "url": "https://arthurmurray.com/toledo"
     },
     {
       "id": "6f6e2f971083c322",
@@ -2239,7 +2239,7 @@
       "name": "West Covina",
       "address": "3660 Nogales St, Unit J West Covina CA 91712 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/westcovina"
+      "url": "https://arthurmurray.com/westcovina"
     },
     {
       "id": "3002a15ee4753873",
@@ -2253,7 +2253,7 @@
       "name": "Westlake",
       "address": "3801 N Capital Of Texas Highway, Suite D220 Austin TX 78746 United States",
       "region": "United States",
-      "url": "https://www.arthurmurray.com/studios/westlake/"
+      "url": "https://austinarthurmurray.com/"
     },
     {
       "id": "af673d80dc152064",
